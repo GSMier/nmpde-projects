@@ -1,0 +1,14 @@
+git clone https://github.com/GSMier/nmpde-projects.git
+cd nmpde-projects
+
+apptainer shell ~/amsc_mk_2025.sif
+
+source /u/sw/etc/bash.bashrc
+module load gcc-glibc dealii
+
+mkdir -p build
+cd build
+cmake ..
+make
+
+./proj-10
