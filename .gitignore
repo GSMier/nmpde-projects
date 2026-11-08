@@ -6,6 +6,8 @@
 # CMake and build output
 /build/
 /build-*/
+/debug/
+/debug-*/
 /cmake-build-*/
 /nmpde-build/
 /nmpde-debug/
